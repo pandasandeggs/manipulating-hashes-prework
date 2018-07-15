@@ -5,8 +5,7 @@ def second_challenge
    meat: ["chicken", "steak", "salmon"],
    grains: ["rice", "pasta"]
   }
-  
-  new_array = []
+
     groceries.each do |key,value|
       value.values
     end
