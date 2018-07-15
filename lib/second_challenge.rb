@@ -7,7 +7,7 @@ def second_challenge
   }
 
     groceries.collect do |key,value|
-      value.values_at(dairy, vegetable, meat, grains)
+      value.values_at("dairy")
     end
   end
   
