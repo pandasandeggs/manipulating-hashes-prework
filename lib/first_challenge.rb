@@ -19,7 +19,7 @@ def first_challenge
         value.each do |flavor|
           if value.include?("strawberry")
             value.delete("strawberry")
-          end 
+          
         end 
       end
     end 
