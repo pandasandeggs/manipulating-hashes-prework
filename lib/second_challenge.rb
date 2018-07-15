@@ -6,8 +6,9 @@ def second_challenge
    grains: ["rice", "pasta"]
   }
 
+    new_array = []
     groceries.collect do |key,value|
-      value.values
+      new_array = value.values
     end
   end
   
