@@ -10,6 +10,7 @@ def second_challenge
     groceries.collect do |key,value|
       new_array << value.values
     end
+    new_array
   end
   
   
