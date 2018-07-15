@@ -7,10 +7,9 @@ def second_challenge
   }
   
   new_array = []
-  second_challenge.collect do |grocery,type|
     groceries.collect do |key,value|
+      foods.collect do |dept,food|
         new_array << foods.values
-      end 
     end
     new_array
   end
