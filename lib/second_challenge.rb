@@ -9,7 +9,6 @@ def second_challenge
     groceries.collect do |key,value|
       value.values_at(dairy, vegetable, meat, grains)
     end
-    new_array
   end
   
   
